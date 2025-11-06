@@ -6,9 +6,16 @@ __pycache__/
 # C extensions
 *.so
 
-# Distribution / packaging
-.Python
+#stuff I dont want to include
+Resources/
+*.xlsx
+*.csv
+reorganise.py
 build/
+CustomTkinter/
+
+# Distribution / packaging
+#.Python
 develop-eggs/
 dist/
 downloads/
